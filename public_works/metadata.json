@@ -1,0 +1,22 @@
+  {
+    "name" : "Public Works",
+    "id" : "com.github.mymod",
+    "version" : "0.1",
+    "game_id" : "victoria3",
+    "supported_game_version" : "1.9.6",
+    "short_description" : "Expands upon sectors that are forced to be publicly owned in the basegame, such as schooling, hospitals, and construction",
+    "tags" : ["province", "fix"],
+
+    "relationships" : [
+        {
+            "rel_type" : "dependency",
+            "id" : "com.github.othermod",
+            "display_name" : "Othermod",
+            "resource_type" : "mod",
+            "version" : "1.2.*"
+        }
+    ],
+    "game_custom_data" : {
+      "multiplayer_synchronized" : true
+    }
+  }

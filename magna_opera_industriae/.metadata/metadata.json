@@ -1,21 +1,12 @@
   {
     "name" : "Magna Opera Industriae",
-    "id" : "com.github.mymod",
+    "id" : "https://github.com/Siranial/vic3_mod_testing",
     "version" : "0.1",
     "game_id" : "victoria3",
     "supported_game_version" : "1.9.6",
     "short_description" : "Adjusts production values to incentivize industry specialization and trade",
-    "tags" : ["province", "fix"],
+    "tags" : ["industry"],
 
-    "relationships" : [
-        {
-            "rel_type" : "dependency",
-            "id" : "com.github.othermod",
-            "display_name" : "Othermod",
-            "resource_type" : "mod",
-            "version" : "1.2.*"
-        }
-    ],
     "game_custom_data" : {
       "multiplayer_synchronized" : true
     }

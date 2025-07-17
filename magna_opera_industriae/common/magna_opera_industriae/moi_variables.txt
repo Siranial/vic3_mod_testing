@@ -1,0 +1,3 @@
+moi_industry_construction_cost_scale = 3
+moi_industry_employment_scale = 3
+
